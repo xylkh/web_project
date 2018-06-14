@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-03-30 09:30:19
+ * @version $Id$
+ */
+#tbl{
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin: 30px 30px 30px 30px;
+  text-align: center;
+  background-color: #eee;
+}
+#tbl td {
+  width: 250px;
+  height: 100px;
+  border: 1px solid black;
+}
