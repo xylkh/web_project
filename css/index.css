@@ -1,0 +1,195 @@
+
+
+body {
+	font-size: 12px;
+	font-family: Arial;
+	min-width:1024px;
+
+}
+
+
+a {
+	color: #999;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #C40000;
+}
+.category  {
+	width: 100%;
+	height:520px;
+	background-color: #E8E8E8;
+	z-index:-1;
+}
+
+
+.carousel-of-product {
+	width: 1024px;
+	height: 510px;
+	margin:0px auto;
+}
+
+.categoryMenu {
+	width: 200px;
+	background-color: #e2e2e3;
+	margin-left: 20px;
+	position: absolute;
+	z-index: 1;
+}
+
+.categoryMenu a {
+	color: #000;
+}
+
+.categoryMenu a:hover {
+	color: lightskyblue;
+	text-decoration: none;
+}
+
+.eachCategory {
+	line-height: 30px;
+	padding-left: 10px;
+	font-size: 14px;
+}
+.eachCategory:hover {
+	background-color:white ;
+}
+.eachCategory span {
+	margin-right: 10px;
+}
+
+
+.headbar
+{
+	background-color: #C60A0A;
+    line-height: 36px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.head_left {
+	width: 20%;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	margin-left: 16%;
+}
+.rightMenu {
+	width: 80%;
+}
+
+.rightMenu img {
+	height: 30px;
+	
+}
+
+.rightMenu span {
+	margin: 0px 20px 0px 20px;
+	font-size: 16px;
+	
+}
+
+.rightMenu a {
+	color: white;
+}
+
+
+.rightMenu a:hover {
+	color: pink;
+}
+
+
+
+
+
+img.logo {
+	position: absolute;
+	left: -40px;
+	top: -50px;
+ 	
+}
+
+.Products {
+	background-color: #F5F5F5;
+	padding: 50px 10px;
+	max-width: 1013px;
+	margin: 10px auto;
+
+}
+
+.left-mark {
+	display: inline-block;
+	height: 20px;
+	vertical-align: top;
+	width: 5px;
+	background-color: #19C8A9;
+}
+
+.categoryTitle {
+	font-size: 16px;
+	margin-left: 30px;
+	color: #646464;
+	font-weight: bold;
+}
+
+.productItem {
+	width: 189px;
+	height: 285px;
+	border: 1px solid white;
+	background-color: white;
+	margin: 8px 4px;
+	
+	
+}
+
+.productDesc {
+	display: inline-block;
+	height: 66px;
+}
+
+.productItem:hover {
+	border: 1px solid #C40000;
+}
+
+.productDescif {
+	font-size: 12px;
+	color: #666666;
+	display: block;
+	padding: 16px;
+}
+
+.productItem span.productPrice {
+	font-size: 16px;
+	color: #FF003A;
+	display: block;
+	padding-left: 16px;
+	margin-top: -10px;
+}
+
+.eachProducts {
+	margin: 0px 0px 40px 0px;
+}
+.clomProducts
+{  
+	display: flex;
+	justify-content: space-between;
+}
+.productItem img {
+	width: 187px;
+	height: 190px;
+}
+
+.productItem  img:hover {
+	opacity: 0.7;
+	filter: alpha(opacity = 70);
+}
+
+img.endpng {
+	display: block;
+	width: 82px;
+	margin: 0 auto;
+}
+
+
+
+

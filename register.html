@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>模仿天猫官网</title>
+<meta charset="utf-8">
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<link href="ss\bootstrap.css" rel="stylesheet">
+<script src="js\bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+<link href="css\register.css" rel="stylesheet">
+
+</head>
+<body>
+
+<form method="post" action="foreregister" class="registerForm">
+<div class="register">
+	<table class="registerTable" align="center">
+		<tr>
+			<td  class="registerTip tableLeft">设置会员名</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="tableLeft">登陆名</td>
+			<td  class="tableRight"><input id="name" name="name" placeholder="会员名一旦设置成功，无法修改" > </td>
+		</tr>
+		<tr>
+			<td  class="registerTip tableLeft">设置登陆密码</td>
+			<td  class="tableRight">登陆时验证，保护账号信息</td>
+		</tr>		
+		<tr>
+			<td class="tableLeft">登陆密码</td>
+			<td class="tableRight"><input id="password" name="password" type="password"  placeholder="设置你的登陆密码" > </td>
+		</tr>
+		<tr>
+			<td class="tableLeft">密码确认</td>
+			<td class="tableRight"><input id="repeatpassword" type="password"   placeholder="请再次输入你的密码" > </td>
+		</tr>
+				
+		<tr>
+			<td colspan="2" class="registerButtonTD">
+				<a href="registerSuccess.jsp"><button>提   交</button></a>
+			</td>
+		</tr>				
+	</table>
+</div>
+</form>
+
+</body>
+</html>
