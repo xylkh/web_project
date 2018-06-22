@@ -1,0 +1,74 @@
+
+body {
+	font-size: 12px;
+	font-family: Arial;
+	min-width:1024px;
+
+}
+
+
+a {
+	color: #999;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #C40000;
+}
+.register {
+	margin: 10px 20px;
+	text-align: center;
+}
+
+table.registerTable {
+	color: #3C3C3C;
+	font-size: 16px;
+	table-layout: fixed;
+	margin-top: 50px;
+}
+
+.registerTable td {
+	padding: 10px 30px;
+}
+
+.tableLeft {
+	width: 300px;
+	text-align: right;
+}
+
+.tableRight {
+	width: 300px;
+	text-align: left;
+}
+
+.registerTip {
+	font-weight: bold;
+}
+
+.registerTable input {
+	border: 1px solid #DEDEDE;
+	width: 213px;
+	height: 36px;
+	font-size: 14px;
+}
+
+.registerButton {
+	text-align: center;
+}
+
+.registerTable button {
+	width: 170px;
+	height: 36px;
+	border-radius: 2px;
+	color: white;
+	background-color: #C40000;
+	border-width: 0;
+}
+.registerSuccess {
+	margin: 10px 20px;
+	background-color: #F3FDF6;
+	border: 1px solid #DEF3E6;
+	font-size: 16px;
+	color: #3C3C3C;
+	padding: 20px 130px;
+}
